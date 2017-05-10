@@ -36,12 +36,12 @@ a:hover,a.hover{ text-decoration:none;}
 div.flicking_con {width:990px;margin:0 auto;position:relative}
 div.flicking_con .flicking_inner {position:absolute;top:730px;left:410px;z-index:999;width:300px; height:22px;} 
 /* 121126 */
-div.flicking_con a {float:left;width:22px; margin-right:16px;height:22px;padding:0;background:url('../images/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+div.flicking_con a {float:left;width:22px; margin-right:16px;height:22px;padding:0;background:url('http://www.chinamobiad.com/images/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
 div.flicking_con a.on {background-position:0 -27px;}
 #btn_prev, #btn_next {z-index:11111;position:absolute;display:block;width:73px!important;height:74px!important;top:45%;margin-top:-57px;display:none;
 }
-#btn_prev {background:url(../images/banner_btn_l_24.png) no-repeat left top;left:60px;}
-#btn_next {background:url(../images/banner_btn_r_24.png) no-repeat right top;right:60px;}
+#btn_prev {background:url(http://www.chinamobiad.com/images/banner_btn_l_24.png) no-repeat left top;left:60px;}
+#btn_next {background:url(http://www.chinamobiad.com/images/banner_btn_r_24.png) no-repeat right top;right:60px;}
 
 
 
@@ -55,13 +55,13 @@ div.flicking_con a.on {background-position:0 -27px;}
 .xiao_title{ font-size:20px; color:#666666;}
 
 .nr{ width:100%; margin:0 auto;}
-.con1{ background:url(../images/bg.png) 0 0 repeat-y; width:100%; padding:80px 0 0 0; position:relative;}
+.con1{ background:url(http://www.chinamobiad.com/images/bg.png) 0 0 repeat-y; width:100%; padding:80px 0 0 0; position:relative;}
 .icon1{ position:absolute;top:0; left:50%; margin-left:-70px;}
 .icon2{ position:absolute;top:0; left:50%; margin-left:-70px;}
 .icon3{ position:absolute;top:0; left:50%; margin-left:-70px;}
 .icon4{ position:absolute;top:0; left:50%; margin-left:-40px;}
 
-.igbanner{ background:url(../images/sy_agbanner.png) top center no-repeat; height:700px; display:block; width:100%;}
+.igbanner{ background:url(http://www.chinamobiad.com/images/sy_agbanner.png) top center no-repeat; height:700px; display:block; width:100%;}
 
 
 .con2{ background:#d20027; padding-top:70px; position:relative;}
@@ -72,12 +72,12 @@ div.flicking_con a.on {background-position:0 -27px;}
 .fu_title2{font-size:46px;margin-bottom:30px; color:#ffffff;}
 .xiao_title2{font-size:20px; color:#ffffff;}
 
-.networkbanner{ background:url(../images/index_wangluo.png) top center no-repeat; height:612px; display:block; width:100%;}
+.networkbanner{ background:url(http://www.chinamobiad.com/images/index_wangluo.png) top center no-repeat; height:612px; display:block; width:100%;}
 .readmore{ background:#ffffff; border-radius:3px; height:50px; width:200px; display:block; text-align:center; line-height:50px; font-size:20px; margin:20px auto 0 auto; color:#d20027;}
 .readmore:hover{ background:#eee;}
 .readmore2{ background:#d20027; border-radius:3px; height:50px; width:200px; display:block; text-align:center; line-height:50px; font-size:20px; margin:20px auto 0 auto; color:#fff;}
 .readmore2:hover{ background:#b70022;}
-.dmpbanner{background:url(../images/index_dmp.png) top center no-repeat; height:409px; display:block; width:100%;}
+.dmpbanner{background:url(http://www.chinamobiad.com/images/index_dmp.png) top center no-repeat; height:409px; display:block; width:100%;}
 .dmpleftpic{ position:absolute; left:0;bottom:0;}
 .dmprightpic{ position:absolute; right:0;right:0;}
 
@@ -98,18 +98,18 @@ div.flicking_con a.on {background-position:0 -27px;}
 
 
 /*关于我们*/
-.about_banner{ background:url(../images/about_banner.jpg) top center no-repeat; height:400px; display:block; width:100%; padding-top:300px;}
+.about_banner{ background:url(http://www.chinamobiad.com/images/about_banner.jpg) top center no-repeat; height:400px; display:block; width:100%; padding-top:300px;}
 .about_text{ text-align:center; color:#fff; font-size:24px; line-height:42px;}
 .margin_top40{ margin-top:40px;}
 
-.about_fazhan{ position:relative; padding-top:70px; background:url(../images/bg.png); height:585px;}
-.about_fazhan2{ background:url(../images/about_fazhan.png) center no-repeat; height:430px;}
+.about_fazhan{ position:relative; padding-top:70px; background:url(http://www.chinamobiad.com/images/bg.png); height:585px;}
+.about_fazhan2{ background:url(http://www.chinamobiad.com/images/about_fazhan.png) center no-repeat; height:430px;}
 
 
 
-.about_zhaopin1{ position:relative; padding-top:70px; height:874px; background:#000 url(../images/bg_black.png) repeat-x;}
+.about_zhaopin1{ position:relative; padding-top:70px; height:874px; background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x;}
 
-.about_zhaopin2{ background:url(../images/about_zhaopin.png) no-repeat center; height:649px; padding-top:150px;}
+.about_zhaopin2{ background:url(http://www.chinamobiad.com/images/about_zhaopin.png) no-repeat center; height:649px; padding-top:150px;}
 
 .about_text2{ margin-bottom:50px; padding-right:60px; color:#fff}
 .about_text2 h1{ text-align:center;font-size:66px; margin-bottom:60px;  padding-top:40px; }
@@ -117,7 +117,7 @@ div.flicking_con a.on {background-position:0 -27px;}
 
 
 
-.about_contact{ position:relative; padding-top:70px; height:601px; background:url(../images/about_contact.jpg) no-repeat center;}
+.about_contact{ position:relative; padding-top:70px; height:601px; background:url(http://www.chinamobiad.com/images/about_contact.jpg) no-repeat center;}
 .about_box{ width:1000px; margin:0 auto; height:450px;}
 .about_left_text{ color:#fff; font-size:18px; width:260px; width:300px; margin-left:38px; margin-top:150px; line-height:34px; float:left;}
 .about_left_center{ color:#fff; font-size:18px; width:260px; margin-left:38px; margin-top:90px; line-height:34px; float:left; margin-right:30px;}
@@ -125,15 +125,15 @@ div.flicking_con a.on {background-position:0 -27px;}
 
 
 
-.about_banner_fengcai{ background:url(../images/about_banner3_fengcai.jpg) no-repeat center; height:568px;}
-.about_photo{ position:relative; padding-top:70px; background:url(../images/bg.png); height:950px;}
-.about_photo_banner{ background:url(../images/about_fengcai.png) no-repeat center; height:866px;}
+.about_banner_fengcai{ background:url(http://www.chinamobiad.com/images/about_banner3_fengcai.jpg) no-repeat center; height:568px;}
+.about_photo{ position:relative; padding-top:70px; background:url(http://www.chinamobiad.com/images/bg.png); height:950px;}
+.about_photo_banner{ background:url(http://www.chinamobiad.com/images/about_fengcai.png) no-repeat center; height:866px;}
 
 
 
 
-.about_banner_zhaopin{ background:url(../images/about_banner2_zhaopin.jpg) no-repeat center; height:568px;}
-.about_zhaopin_text2{ background:url(../images/bg.png) repeat-y center; color:#000; position:relative; padding-top:70px; }
+.about_banner_zhaopin{ background:url(http://www.chinamobiad.com/images/about_banner2_zhaopin.jpg) no-repeat center; height:568px;}
+.about_zhaopin_text2{ background:url(http://www.chinamobiad.com/images/bg.png) repeat-y center; color:#000; position:relative; padding-top:70px; }
 
 .about_zhaopin_text{  margin-top:50px;  border-bottom:1px dashed #919191; padding-bottom:50px;}
 .about_zhaopin{ margin-top:60px; width:800px; margin:0 auto;}
@@ -154,16 +154,16 @@ div.flicking_con a.on {background-position:0 -27px;}
 
 .margin_b20{ margin-bottom:40px;}
 .text1{ font-size:18px; margin-left:40px; line-height:40px;}
-.tel{ background:url(../images/tel.png) no-repeat 5px; text-indent:44px; font-size:16px;}
-.email{ background:url(../images/email.png) no-repeat 5px; text-indent:44px; font-size:16px;}
+.tel{ background:url(http://www.chinamobiad.com/images/tel.png) no-repeat 5px; text-indent:44px; font-size:16px;}
+.email{ background:url(http://www.chinamobiad.com/images/email.png) no-repeat 5px; text-indent:44px; font-size:16px;}
 
 
 
 /*掌众网络*/
-.network_banner{background:url(../images/zzwl_banner.jpg) top center no-repeat; height:800px; display:block; width:100%;}
+.network_banner{background:url(http://www.chinamobiad.com/images/zzwl_banner.jpg) top center no-repeat; height:800px; display:block; width:100%;}
 
-.network_chanye{ position:relative; padding-top:70px; background:url(../images/bg.png); height:600px;}
-.network_chanye_box{ width:1000px; margin:0 auto; background:url(../images/zzwl_yinying.png) no-repeat bottom; height:390px; }
+.network_chanye{ position:relative; padding-top:70px; background:url(http://www.chinamobiad.com/images/bg.png); height:600px;}
+.network_chanye_box{ width:1000px; margin:0 auto; background:url(http://www.chinamobiad.com/images/zzwl_yinying.png) no-repeat bottom; height:390px; }
 
 .network_chanye_left{ width:333px; float:left; background: #d20027; font-size:36px; color:#fff; height:340px;}
 .network_chanye_center{ width:333px; float:left; background: #000; font-size:36px; color:#fff; height:340px;}
@@ -175,9 +175,9 @@ div.flicking_con a.on {background-position:0 -27px;}
 
 .network_weidu{ position:relative; background:#d20027; height:944px;}
 
-.network_weidu_left{ width:43%; background:#000 url(../images/bg_black.png) repeat-x; height:944px; float:left;}
-.network_phone{ background:url(../images/zzwl_phone.png) right; width:407px; height:818px; float:right; margin-top:123px;}
-.network_weidu_right{ width:57%; background:url(../images/zzwl_weidu_sjx.png) no-repeat left; height:944px; float:left;}
+.network_weidu_left{ width:43%; background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x; height:944px; float:left;}
+.network_phone{ background:url(http://www.chinamobiad.com/images/zzwl_phone.png) right; width:407px; height:818px; float:right; margin-top:123px;}
+.network_weidu_right{ width:57%; background:url(http://www.chinamobiad.com/images/zzwl_weidu_sjx.png) no-repeat left; height:944px; float:left;}
 
 .network_weid_box{ color:#fff;  margin-top:230px;}
 .margin_left50{ margin-left:50px;}
@@ -191,21 +191,21 @@ div.flicking_con a.on {background-position:0 -27px;}
 .network_weid_box dl dt dd p{ }
 
 
-.network_wudian{ position:relative; padding-top:70px; background:url(../images/bg.png); height:544px;}
+.network_wudian{ position:relative; padding-top:70px; background:url(http://www.chinamobiad.com/images/bg.png); height:544px;}
 .network_wudian_box{ padding-top:80px; width:1130px; margin:0 auto;}
 .network_wudian_box dl{ float:left; width:226px; text-align:center; font-size:22px;}
 .network_title{ font-size:42px; color:#000; line-height:90px; font-weight:bold;}
 
 
 
-.network_hezuo{ position:relative; padding-top:70px; height:960px; background:#000 url(../images/bg_black.png) repeat-x;}
-.network_hezuo_banner{ background:url(../images/zzwl_hezuo.png) no-repeat center; height:683px; padding-top:20px;}
+.network_hezuo{ position:relative; padding-top:70px; height:960px; background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x;}
+.network_hezuo_banner{ background:url(http://www.chinamobiad.com/images/zzwl_hezuo.png) no-repeat center; height:683px; padding-top:20px;}
 
 
 
-.network_anli{ position:relative; padding-top:70px; background:url(../images/bg.png); height:900px;}
+.network_anli{ position:relative; padding-top:70px; background:url(http://www.chinamobiad.com/images/bg.png); height:900px;}
 
-.network_anli_banner{ background:url(../images/zzwl_anli.png) no-repeat center; height:670px; padding-top:30px;}
+.network_anli_banner{ background:url(http://www.chinamobiad.com/images/zzwl_anli.png) no-repeat center; height:670px; padding-top:30px;}
 
 
 
@@ -214,31 +214,31 @@ div.flicking_con a.on {background-position:0 -27px;}
 
 
 /*dmp*/
-.dmp_banner{ background:url(../images/dmp_banner.jpg) no-repeat center; height:806px;}
-.dmp_1{ position:relative; padding-top:90px; background:url(../images/bg.png); height:470px;}
+.dmp_banner{ background:url(http://www.chinamobiad.com/images/dmp_banner.jpg) no-repeat center; height:806px;}
+.dmp_1{ position:relative; padding-top:90px; background:url(http://www.chinamobiad.com/images/bg.png); height:470px;}
 .text_title3{ margin-bottom:20px;}
-.text_title3 h1{ background:url(../images/dmp_1_black.png) no-repeat center; width:755px; height:70px; line-height:70px; text-align:center; color:#fff; font-size:38px; margin:0 auto; margin-bottom:20px;}
+.text_title3 h1{ background:url(http://www.chinamobiad.com/images/dmp_1_black.png) no-repeat center; width:755px; height:70px; line-height:70px; text-align:center; color:#fff; font-size:38px; margin:0 auto; margin-bottom:20px;}
 .red{ color:#ff2c2c;}
 .fu_title3{ text-align:center; color:#333; font-size:24px; line-height:40px;}
 
 .dmp_1_text{ width:950px; margin:0 auto;}
-.dmp_1_text dl{ background:url(../images/dmp_1_yuan.png) no-repeat; width:234px; height:192px; color:#fff; padding-top:60px; float:left;}
+.dmp_1_text dl{ background:url(http://www.chinamobiad.com/images/dmp_1_yuan.png) no-repeat; width:234px; height:192px; color:#fff; padding-top:60px; float:left;}
 .dmp_1_text dl dt{ width:200px; text-align:center; font-size:46px; }
 .dmp_1_text dl dd{ width:200px; text-align:center; font-size:26px; margin-top:30px;}
 
 
 .dmp_jiazhi{ background:#d20027; height:793px; position:relative; padding-top:90px;}
-.dmp_jiazhi_banner{ background:url(../images/dmp_jiazhi.png) no-repeat center bottom; height:599px;}
+.dmp_jiazhi_banner{ background:url(http://www.chinamobiad.com/images/dmp_jiazhi.png) no-repeat center bottom; height:599px;}
 
-.dmp_yuanli{ background:#000 url(../images/bg_black.png) repeat-x; position:relative; padding-top:70px; height:1420px;}
-.dmp_yuanli_banner{ background:url(../images/dmp_yuanli.png) no-repeat center; height:1249px;}
+.dmp_yuanli{ background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x; position:relative; padding-top:70px; height:1420px;}
+.dmp_yuanli_banner{ background:url(http://www.chinamobiad.com/images/dmp_yuanli.png) no-repeat center; height:1249px;}
 
 
 
 /*爱告*/
-.iadmob_banner{   background:url(../images/iadmob_banner.jpg) no-repeat center; height:938px;}
+.iadmob_banner{   background:url(http://www.chinamobiad.com/images/iadmob_banner.jpg) no-repeat center; height:938px;}
 
-.iadmob_1{   position:relative; padding-top:100px; background:url(../images/bg.png); height:420px;}
+.iadmob_1{   position:relative; padding-top:100px; background:url(http://www.chinamobiad.com/images/bg.png); height:420px;}
 .iadmob_1_text{ width:970px; margin:0 auto;}
 .iadmob_1_text dl{ text-align:center; width:209px; float:left;}
 .iadmob_title{ font-size:38px; width:181px; color:#000; font-weight:bold; margin-top:20px;}
@@ -246,26 +246,26 @@ div.flicking_con a.on {background-position:0 -27px;}
 .margin_right146{ margin-right:146px;}
 
 
-.iadmob_jingzhun{ position:relative; padding-top:100px;  background:#000 url(../images/bg_black.png) repeat-x; height:606px; padding-top:70px;}
+.iadmob_jingzhun{ position:relative; padding-top:100px;  background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x; height:606px; padding-top:70px;}
 
 .iadmob_jingzhun_box{ width:1130px; margin:0 auto; padding-top:20px;}
-.iadmob_jingzhun_text{ background:url(../images/iadmob_jingzhun_bg.png) no-repeat; width:187px; height:397px; color:#fff; text-align:center; float:left;}
+.iadmob_jingzhun_text{ background:url(http://www.chinamobiad.com/images/iadmob_jingzhun_bg.png) no-repeat; width:187px; height:397px; color:#fff; text-align:center; float:left;}
 
 .iadmob_jingzhun_text1{ font-size:30px; padding-top:30px; width:170px;}
 .iadmob_jingzhun_text2{ font-size:20px; padding-top:10px; width:170px;}
 .iadmob_jingzhun_text3{ font-size:16px; padding-top:60px; width:130px; line-height:30px; text-align:left; margin-left:20px;}
 
 
-.iadmob_3{  position:relative; padding-top:100px;  background:url(../images/bg.png); height:740px;}
+.iadmob_3{  position:relative; padding-top:100px;  background:url(http://www.chinamobiad.com/images/bg.png); height:740px;}
 
-.iadmob_3_banner{ background:url(../images/iadmob_banner3.png) no-repeat center; height:740px;}
+.iadmob_3_banner{ background:url(http://www.chinamobiad.com/images/iadmob_banner3.png) no-repeat center; height:740px;}
 
 
 
 
 /***************爱告页面切换***************/
 /*片头css */
-.iadmob_banner_qiehuan{  width:100%; height:848px; background:#000 url(../images/bg_black.png) repeat-x; position:relative; padding-top:100px;}
+.iadmob_banner_qiehuan{  width:100%; height:848px; background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x; position:relative; padding-top:100px;}
 .main_image2 {width:100%;height:990px;overflow:hidden;margin:0 auto;position:relative;}
 .main_image2 ul {width:9999px;height:990px;overflow:hidden;position:absolute;top:12;left:0}
 .main_image2 li {float:left;width:100%;height:990px;}
@@ -274,27 +274,27 @@ div.flicking_con a.on {background-position:0 -27px;}
 div.flicking_con2 {width:990px;margin:0 auto;position:relative}
 div.flicking_con2 .flicking_inner {position:absolute;top:470px;left:450px;z-index:999;width:300px; height:22px;} 
 /* 121126 */
-div.flicking_con2 a {float:left;width:22px; margin-right:16px;height:22px;padding:0;background:url('../images/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+div.flicking_con2 a {float:left;width:22px; margin-right:16px;height:22px;padding:0;background:url('http://www.chinamobiad.com/images/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
 div.flicking_con2 a.on {background-position:0 -27px;}
 #btn_prev2, #btn_next2 {z-index:11111;position:absolute;display:block;width:73px!important;height:74px!important;top:50%;margin-top:-57px;display:none;
 }
-#btn_prev2 {background:url(../images/banner_btn_l_24.png) no-repeat left top;left:60px;}
-#btn_next2 {background:url(../images/banner_btn_r_24.png) no-repeat right top;right:60px;}
+#btn_prev2 {background:url(http://www.chinamobiad.com/images/banner_btn_l_24.png) no-repeat left top;left:60px;}
+#btn_next2 {background:url(http://www.chinamobiad.com/images/banner_btn_r_24.png) no-repeat right top;right:60px;}
 
 
 
 
 
-.iadmob_liucheng{   position:relative; padding-top:100px; background:url(../images/bg.png); height:560px;}
-.iadmob_liucheng_banner{ background:url(../images/iadmob_liucheng_banner.png) no-repeat center; height:170px; padding-top:80px;}
+.iadmob_liucheng{   position:relative; padding-top:100px; background:url(http://www.chinamobiad.com/images/bg.png); height:560px;}
+.iadmob_liucheng_banner{ background:url(http://www.chinamobiad.com/images/iadmob_liucheng_banner.png) no-repeat center; height:170px; padding-top:80px;}
 
 .fu_title_iadmob{ font-size:38px;margin-bottom:30px; color:#333333;}
 
 
 
 
-.iadmob_anli{   background:#000 url(../images/bg_black.png) repeat-x; height:776px; position:relative; padding-top:70px;}
-.iadmob_anli_banner{ background:url(../images/iadmob_anli.png) no-repeat center; height:514px; padding-top:30px;}
+.iadmob_anli{   background:#000 url(http://www.chinamobiad.com/images/bg_black.png) repeat-x; height:776px; position:relative; padding-top:70px;}
+.iadmob_anli_banner{ background:url(http://www.chinamobiad.com/images/iadmob_anli.png) no-repeat center; height:514px; padding-top:30px;}
 
 
 
