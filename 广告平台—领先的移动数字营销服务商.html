@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)http://www.chinamobiad.com/iadmob.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>广告平台—领先的移动数字营销服务商</title>
+<link rel="shortcut icon" href="http://www.chinamobiad.com/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./广告平台—领先的移动数字营销服务商_files/main.css">
+<meta name="keywords" content="广告平台,手机智能分析系统,移动广告,移动营销解决方案提供商,掌众传媒,移动在线,广告管理平台,手机广告媒体,智能手机,IadMob移动广告平台,发布运营商,mobile,admob,Android手机广告,广告发布平台,sdk,手机广告平台,互联网广告">
+
+
+
+<script src="./广告平台—领先的移动数字营销服务商_files/jquery.min.js"></script>
+<script src="./广告平台—领先的移动数字营销服务商_files/jquery.event.drag-1.5.min.js"></script>
+<script src="./广告平台—领先的移动数字营销服务商_files/jquery.touchSlider.js"></script>
+<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+<script type="text/javascript"> 
+    $("img").lazyload({ threshold : 200 })
+</script> 
+<script>
+$(document).ready(function () {
+	$(".main_visual2").hover(function(){
+		$("#btn_prev2,#btn_next2").fadeIn()
+		},function(){
+		$("#btn_prev2,#btn_next2").fadeOut()
+		})
+	$dragBln = false;
+	$(".main_image2").touchSlider({
+		flexible : true,
+		speed : 500,
+		btn_prev : $("#btn_prev2"),
+		btn_next : $("#btn_next2"),
+		paging : $(".flicking_con2 a"),
+		counter : function (e) {
+			$(".flicking_con2 a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	$(".main_image2").bind("mousedown", function() {
+		$dragBln = false;
+	})
+	$(".main_image2").bind("dragstart", function() {
+		$dragBln = true;
+	})
+	$(".main_image2 a").click(function() {
+		if($dragBln) {
+			return false;
+		}
+	})
+	timer = setInterval(function() { $("#btn_next2").click();}, 3000);
+	$(".main_visual2").hover(function() {
+		clearInterval(timer);
+	}, function() {
+		timer = setInterval(function() { $("#btn_next2").click();}, 3000);
+	})
+	$(".main_image2").bind("touchstart", function() {
+		clearInterval(timer);
+	}).bind("touchend", function() {
+		timer = setInterval(function() { $("#btn_next2").click();}, 3000);
+	})
+});
+</script>
+<script src="./广告平台—领先的移动数字营销服务商_files/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+
+
+
+
+</head>
+
+<body>
+	<div class="top min_width">
+		<div class="nav">
+			<div class="logo"><a href="http://www.chinamobiad.com/index.html"><img src="./广告平台—领先的移动数字营销服务商_files/logo.png"></a></div>
+			<div class="nav_list">
+				<ul>
+					<li><a href="http://www.chinamobiad.com/index.html">首页</a></li>
+					<li><a href="./广告平台—领先的移动数字营销服务商_files/广告平台—领先的移动数字营销服务商.html" class="hover">广告平台</a></li>
+					<li><a href="http://www.chinamobiad.com/network.html">移动营销</a></li>
+					<li><a href="http://www.chinamobiad.com/overseas.html">海外营销</a></li>
+					<li><a href="http://www.chinamobiad.com/dmp.html">掌众DMP</a></li>
+					<li><a href="http://www.chinamobiad.com/about.html">关于我们</a></li>
+				</ul>
+			</div>
+			<br class="clear">
+		</div>
+	</div>
+	
+<!--=================banner开始=================-->
+<div class="iadmob_banner min_width"></div>
+<!--=================banner结束=================-->	
+
+
+
+<div class="iadmob_1 min_width">
+    <i class="icon1"><img src="./广告平台—领先的移动数字营销服务商_files/icon_iadmob1.png"></i>
+    
+    
+  	<div class="iadmob_1_text">
+    	<dl class="margin_right146">
+        	<dt><img src="./广告平台—领先的移动数字营销服务商_files/iadmob_icon1.png" width="209" height="246"></dt>
+            <dd>
+            	<p class="iadmob_title">媒介资源</p>
+                <p class="iadmob_text1">超强整合能力</p>
+            </dd>
+        </dl>
+        
+        <dl class="margin_right146">
+        	<dt><img src="./广告平台—领先的移动数字营销服务商_files/iadmob_icon2.png" width="209" height="246"></dt>
+            <dd>
+            	<p class="iadmob_title">精准投放</p>
+                <p class="iadmob_text1">以用户为核心</p>
+            </dd>
+        </dl>
+        
+        <dl>
+       	  <dt><img src="./广告平台—领先的移动数字营销服务商_files/iadmob_icon3.png" width="209" height="246"></dt>
+            <dd>
+            	<p class="iadmob_title">解决方案</p>
+                <p class="iadmob_text1">定制化移动营销</p>
+            </dd>
+        </dl>
+        
+        
+    </div>
+    
+</div>
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="iadmob_jingzhun min_width">
+	<i class="icon3"><img src="./广告平台—领先的移动数字营销服务商_files/icon_shuidi.png"></i>
+    <div class="text_title2">
+        <h1>精准定向</h1>
+    </div>
+    
+	<div class="iadmob_jingzhun_box">
+    	<div class="iadmob_jingzhun_text">
+        	<p class="iadmob_jingzhun_text1">人群</p>
+            <p class="iadmob_jingzhun_text2">定向</p>
+            <p class="iadmob_jingzhun_text3">支持对不同性别、不同年龄层人群进行定向投放</p>
+        </div>
+        
+        
+        <div class="iadmob_jingzhun_text">
+        	<p class="iadmob_jingzhun_text1">地域</p>
+            <p class="iadmob_jingzhun_text2">定向</p>
+            <p class="iadmob_jingzhun_text3">支持对指定区域人群进行定向投放</p>
+        </div>
+        
+        
+        <div class="iadmob_jingzhun_text">
+        	<p class="iadmob_jingzhun_text1">行为</p>
+            <p class="iadmob_jingzhun_text2">定向</p>
+            <p class="iadmob_jingzhun_text3">支持对用户的行为兴趣进行定向投放</p>
+        </div>
+        
+        
+    	<div class="iadmob_jingzhun_text">
+        	<p class="iadmob_jingzhun_text1">时间</p>
+            <p class="iadmob_jingzhun_text2">定向</p>
+            <p class="iadmob_jingzhun_text3">支持时间自主选择，24小时全时段可选</p>
+        </div>
+    	
+        <div class="iadmob_jingzhun_text">
+        	<p class="iadmob_jingzhun_text1">网络运营商</p>
+            <p class="iadmob_jingzhun_text2">定向</p>
+            <p class="iadmob_jingzhun_text3">支持对移动、联通、电信、wifi的定向投放</p>
+        </div>
+        
+        <div class="iadmob_jingzhun_text">
+        	<p class="iadmob_jingzhun_text1">设备及平台</p>
+            <p class="iadmob_jingzhun_text2">定向</p>
+            <p class="iadmob_jingzhun_text3">支持Android主流设备平台定向</p>
+        </div>
+    
+    </div>
+ 
+        
+</div>
+
+
+
+
+
+
+<div class="iadmob_3 min_width">
+    <i class="icon1"><img src="./广告平台—领先的移动数字营销服务商_files/icon_black.png"></i>
+  	<div class="iadmob_3_banner"></div>
+    
+</div>
+
+
+
+
+
+
+
+<!--=================轮播开始=================-->
+<div class="iadmob_banner_qiehuan min_width">
+<i class="icon3"><img src="./广告平台—领先的移动数字营销服务商_files/icon_shuidi.png"></i>
+
+<div class="main_visual2">
+                
+			<div class="main_image2">
+				<ul style="width: 1349px; overflow: visible;">					
+					<li style="float: none; display: block; position: absolute; top: 0px; left: -1349px; width: 1349px;"><span style="background:url(images/iadmob_qiehuan1.png) no-repeat top center"></span></li>
+					<li style="float: none; display: block; position: absolute; top: 0px; left: 0px; width: 1349px;"><span style="background:url(images/iadmob_qiehuan2.png) no-repeat top center"></span></li>
+					
+				</ul>
+				<a href="javascript:;" id="btn_prev2" style="width: 1349px; overflow: visible; display: none;"></a>
+				<a href="javascript:;" id="btn_next2" style="width: 1349px; overflow: visible; display: none;"></a>
+</div>
+			</div>
+
+
+
+</div>
+<!--=================轮播结束=================-->
+
+
+
+
+
+<div class="iadmob_liucheng min_width">
+    <i class="icon1"><img src="./广告平台—领先的移动数字营销服务商_files/icon_black.png"></i>
+    <div class="text_title">
+			<h1>服务流程</h1>
+			<p class="fu_title_iadmob">专业服务  来自专业团队</p>
+		</div>
+        
+        
+        <div class="iadmob_liucheng_banner"></div>
+    
+  	
+    
+</div>
+
+
+
+
+
+
+
+
+<div class="iadmob_anli min_width">
+    <i class="icon3"><img src="./广告平台—领先的移动数字营销服务商_files/icon_shuidi.png"></i>
+    <div class="text_title2">
+        <h1>成功案例</h1>
+        <p class="fu_title2">爱告为广告主提供专业一体化营销服务</p>
+  </div>
+  
+  <div class="iadmob_anli_banner"></div>
+    
+	
+        
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="copyright min_width">
+    	<div class="friendlink"><a href="http://www.downza.cn/" target="_blank">下载之家</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+        
+        <a href="http://3g.tompda.com/" target="_blank">手机软件</a>&nbsp;&nbsp;|&nbsp;&nbsp;    
+        
+         <a href="http://app.cnmo.com/" target="_blank">手机应用</a>
+          
+          &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.ruan8.com/" target="_blank">软吧手机软件</a>
+          
+          &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.anruan.com/" target="_blank">安软市场</a>
+        
+         </div>
+		<i class="icon3"><img src="./广告平台—领先的移动数字营销服务商_files/icon_black.png"></i>
+<p><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备11050772号-1</a> Copyright © 2011.深圳市掌众信息技术有限公司版权所有</p>
+	</div>
+	
+
+
+</body></html>
