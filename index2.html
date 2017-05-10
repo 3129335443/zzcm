@@ -9,12 +9,19 @@
 
 
 
-<script src="掌众传媒——领先的移动数字营销服务商_files/jquery.min.js"></script>
+<script src="jq.js"></script>
+<script src="lazy.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function() {
+      $("img").lazyload({effect: "fadeIn"});
+  });
+</script>
+
 <script src="掌众传媒——领先的移动数字营销服务商_files/jquery.event.drag-1.5.min.js"></script>
 <script src="掌众传媒——领先的移动数字营销服务商_files/jquery.touchSlider.js"></script>
-<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
 <script type="text/javascript"> 
-    $("img").lazyload({ threshold : 200 })
+    $("img").lazyload()
 </script> 
 <script>
 $(document).ready(function () {
@@ -65,9 +72,10 @@ $(document).ready(function () {
 </head>
 
 <body>
+
 	<div class="top min_width">
 		<div class="nav">
-			<div class="logo"><a href="./掌众传媒——领先的移动数字营销服务商_files/掌众传媒——领先的移动数字营销服务商.html"><img src="http://www.chinamobiad.com/images/logo.png"></a></div>
+			<div class="logo"><a href="./掌众传媒——领先的移动数字营销服务商_files/掌众传媒——领先的移动数字营销服务商.html"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/logo.png"></a></div>
 			<div class="nav_list">
 				<ul>
 					<li><a href="./掌众传媒——领先的移动数字营销服务商_files/掌众传媒——领先的移动数字营销服务商.html" class="hover">首页</a></li>
@@ -113,7 +121,7 @@ $(document).ready(function () {
 	
 	
 	<div class="con1 min_width">
-	<i class="icon1"><img src="http://www.chinamobiad.com/images/icon_index1.png"></i>
+	<i class="icon1"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/icon_index1.png"></i>
 		<div class="text_title">
 			<h1>爱告广告平台</h1>
 			<p class="fu_title">专业的移动大屏广告平台</p>
@@ -125,7 +133,7 @@ $(document).ready(function () {
 	
 	
 	<div class="con2 min_width">
-	<i class="icon1"><img src="http://www.chinamobiad.com/images/icon_shuidi.png"></i>
+	<i class="icon1"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/icon_shuidi.png"></i>
 		<div class="text_title2">
 			<h1>掌众网络</h1>
 			<p class="fu_title2">领先的移动互联网营销专家</p>
@@ -138,15 +146,15 @@ $(document).ready(function () {
 	
 	
 		<div class="con1 min_width">
-		<i class="icon4"><img src="http://www.chinamobiad.com/images/icon_index_3.png"></i>
+		<i class="icon4"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/icon_index_3.png"></i>
 		<div class="text_title">
 			<h1>掌众DMP</h1>
 			<p class="fu_title">领先的数据管理平台</p>
 			<p class="xiao_title">Data Management Platform—数据管理平台</p>
             <p><a href="http://www.chinamobiad.com/dmp.html" class="readmore2">查看更多</a></p>
 		</div>
-		<div class="dmpleftpic"><img src="http://www.chinamobiad.com/images/index_dmp_bg_left.png"></div>
-		<div class="dmprightpic"><img src="http://www.chinamobiad.com/images/index_dmp_bg_right.png"></div>
+		<div class="dmpleftpic"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/index_dmp_bg_left.png"></div>
+		<div class="dmprightpic"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/index_dmp_bg_right.png"></div>
 		<div class="dmpbanner"></div>
 	</div>
 	
@@ -166,7 +174,7 @@ $(document).ready(function () {
           &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.anruan.com/" target="_blank">安软市场</a>
         
          </div>
-		<i class="icon3"><img src="http://www.chinamobiad.com/images/icon_index_4.png"></i>
+		<i class="icon3"><img src="1.jpg" data-original="http://www.chinamobiad.com/images/icon_index_4.png"></i>
 	  <p><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备11050772号-1</a> Copyright © 2011.深圳市掌众信息技术有限公司版权所有</p>
 	</div>
 	
